@@ -1,9 +1,9 @@
 name: delete-app
 pack: vm_delete-app
 runner_type: "python-script"
-description: trying an action to delete!
+description: To Delete a VM!
 enabled: true
-entry_point: demo.py
+entry_point: demo1.py
 parameters:
      SUBSCRIPTION_ID :
         type: string
