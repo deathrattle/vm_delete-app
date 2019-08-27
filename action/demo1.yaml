@@ -1,6 +1,10 @@
---- name: start pack: kenny_pack runner_type: "python-script" 
-description: trying an action to delete vm! enabled: true entry_point: 
-start.py parameters:
+name: delete-app
+pack: vm_delete-app
+runner_type: "python-script"
+description: trying an action to delete!
+enabled: true
+entry_point: demo.py
+parameters:
      SUBSCRIPTION_ID :
         type: string
         description: subs_id
