@@ -7,16 +7,16 @@ from st2common.runners.base_action import Action
 
 class MyEchoAction(Action):
     def run(self, SUBSCRIPTION_ID, GROUP_NAME, LOCATION, VM_NAME, client_id, secret, tenant):
-        SUBSCRIPTION_ID = '2f50f202-0a84-4c8c-a929-fcc5a3174590'
-        GROUP_NAME = 'vm2'
-        LOCATION ='West India'
-        VM_NAME = 'vm2del'
+        SUBSCRIPTION_ID = SUBSCRIPTION_ID
+        GROUP_NAME = GROUP_NAME
+        LOCATION = LOCATION
+        VM_NAME = VM_NAME
         
         def get_credentials():
             credentials = ServicePrincipalCredentials(
-                client_id = '7aae3fd9-9324-463f-89f5-7c4144971bfb',
-                secret = 'MJOJszdQ2fl]xYQQ5Lm+]hAM2vgR0e+5',
-                tenant = 'd5656af4-b7b3-45b9-9346-fb0547921fb7'
+                client_id = client_id,
+                secret = secret,
+                tenant = tenant
             )
         
             return credentials
