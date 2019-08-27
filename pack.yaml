@@ -1,38 +1,19 @@
---- name: start pack: kenny_pack runner_type: "python-script" 
-description: trying an action to delete vm! enabled: true entry_point: 
-start.py parameters:
-     SUBSCRIPTION_ID :
-        type: string
-        description: subs_id
-        required: true
-        position: 0
-     GROUP_NAME :
-        type: string
-        description: group_name
-        required: true
-        position: 1
-     LOCATION:
-        type: string
-        description: location
-        required: true
-        position: 2
-      VM_NAME :
-        type: string
-        description: vm_name
-        required: true
-        position: 3
-     client_id :
-        type: string
-        description: CLIENT_ID
-        required: true
-        position: 4
-     secret :
-        type: string
-        description: SECRET_KEY
-        required: true
-        position: 5
-     tenant :
-        type: string
-        description: TENANT
-        required: true
-        position: 6
+---
+ref: vm_delete-app
+name: sda
+description: Simple pack containing examples of deletion.
+keywords:
+    - example
+    - test
+version: 3.1.0
+python_versions:
+  - "2"
+  - "3"
+# Name of the pack author.
+author: Rishabh
+# Email of the pack author.
+email: xyz@nihilent.com
+# Optional list of additional contributors to the pack.
+contributors:
+  - "John Doe1 <john.doe1@gmail.com>"
+  - "John Doe2 <john.doe2@gmail.com>"
