@@ -1,6 +1,6 @@
 ---
-ref: vm_delete_app
-name: sda
+ref: vm123
+name: sda123
 description: Simple pack containing examples of deletion.
 keywords:
     - example
