@@ -1,5 +1,5 @@
 name: delete-app
-pack: vm_delete-app
+pack: vm_delete_app
 runner_type: "python-script"
 description: To Delete a VM!
 enabled: true
